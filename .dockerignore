@@ -1,0 +1,8 @@
+.vscode
+.dockerignore
+
+build
+dist
+node_modules
+Dockerfile.dev
+Dockerfile.prod

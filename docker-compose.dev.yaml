@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  astro-portafolio:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    image: astro-portafolio:latest
+    container_name: portafolio-landing-page-astro
+    expose:
+      - 80
+    ports:
+      - "80:80"
+    restart: always
